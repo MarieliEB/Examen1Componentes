@@ -51,8 +51,10 @@ namespace MASTERMIND
         private void mostrarJuegoIniciado()
         {
             this.lblCodigo.Visible = true;
+            this.txtCodigo.Enabled = true;
             this.txtCodigo.Visible = true;
             this.btnComparar.Visible = true;
+            this.btnComparar.Enabled = true;
             this.lblDisponible.Visible = true;
             this.contIntentos.Visible = true;
             this.lblATotales.Visible = true;
