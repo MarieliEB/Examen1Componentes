@@ -69,9 +69,9 @@ namespace MASTERMIND
 
         private void GenerarCuatroNumAleatorios()
         {
+            Random rnd = new Random();
             for (int i = 0; i < 4; i++)
             {
-                Random rnd = new Random();
                 int numRandom = rnd.Next(1, 6);
                 if (numRandom == 0)
                 {
@@ -186,7 +186,7 @@ namespace MASTERMIND
 
         private void MostrarPerdida()
         {
-            if(this.ContadorIntentos == 0)
+            if(this.ContadorIntentos == 1)
             {
                 this.lblInstrucciones.Visible = false;
                 this.lblPerdiste.Visible = true;
@@ -201,7 +201,7 @@ namespace MASTERMIND
             this.NumAciertosParciales = 0;
             for (int i = 0; i < this.CodigoCifrado.Length; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < this.CodigoDigitado.Length; j++)
                 {
                     if (CodigoCifrado[i] == CodigoDigitado[j])
                     {
@@ -216,7 +216,6 @@ namespace MASTERMIND
             this.aciertosParciales.Text = Convert.ToString(this.NumAciertosParciales);
             MostrarPerdida();
         }
-
         #endregion
 
         private void btnReiniciarJuego_Click(object sender, EventArgs e)
