@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\bin\Debug\MASTERMIND.dll
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\bin\Debug\MASTERMIND.pdb
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\obj\Debug\MASTERMIND.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\obj\Debug\MASTERMIND.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\obj\Debug\MASTERMIND.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\obj\Debug\MASTERMIND.dll
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\obj\Debug\MASTERMIND.pdb
+C:\Users\hp\source\repos\MASTERMIND\MASTERMIND\obj\Debug\MASTERMIND.MainControl.resources
